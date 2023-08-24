@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "oswald";
+
+}
+
+/* header */
+
+header {
+    background-image: url(/assets/img/firstFoto.svg) ;
+    /* background-position: center; */
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    padding-top: 192px;
+}
+ /* header img{
+    position: fixed;
+ } */
+
+
+
+
+.main {
+    width: 1110px;
+ 
+}
+
+.main p {
+    font-size: 14px;
+}
+
+.years {
+    width: 1110px;
+
+    background-color: white;
+}
+
+.title-header {
+    color: white;
+}
+
+.list-header {
+    color: white;
+    margin: 15px 0 20px
+}
+
+.years_card {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+    padding: 50px 130px 57px 130px;
+
+}
+
+.years_card h1 {
+    color: #F7654A;
+    margin-bottom: -25px;
+}
+
+.years_card h5 {
+    color: #999999;
+
+}
+
+/* section ours projects */
+
+.ours_projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+
+}
+
+.arena_card img {
+    margin-bottom: 45px;
+    height: 380px;
+}
+
+.orange_line {
+    width: 55px;
+    height: 6px;
+    background-color: #F7654A;
+    margin-bottom: 15px;
+}
+
+.arena_card {
+    height: 578px;
+    width: 350px;
+}
+
+
+
+.arena_card h4 {
+    color: #404149;
+    margin-bottom: 20px;
+}
+
+.arena_card p {
+    color: #404149;
+
+}
+
+.text_our_projects {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 60px;
+    color: #404149;
+}
+
+/* section orange smart */
+
+.most_smarts {
+    height: 181px;
+    background-color: #F7654A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn_request {
+    background-color: #FFFFFF;
+    height: 49px;
+    width: 175px;
+    color: black;
+    border: none;
+}
+
+.orange_2_bloxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.smart_two_texts h1 {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+font-family: "oswald";
+}
+
+.smart_two_texts h5 {
+
+    color: #FFFFFF;
+}
+
+/* section firma description */
+
+.firma_description {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_building {
+    width: 350px;
+    height: 250px;
+    margin-top: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+.card_building img {
+    width: 60px;
+    height: 40px;
+    margin-bottom: 30px;
+
+}
+
+.what_we_doing1 h2 {
+    margin-top: 150px;
+    margin-bottom: 66px;
+
+
+}
+
+.text_h2_section_description {
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+.what_we_doing1 {
+    display: flex;
+    width: 1110px;
+    justify-content: space-between;
+}
+
+.what_we_doing2 {
+
+    width: 1110px;
+
+}
+
+.text2_h2_section_descr {
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.what_we_doing2 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* section contacts */
+
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_descr_contacts {
+    display: flex;
+
+    justify-content: space-between;
+    width: 1110px;
+}
+
+.section_descr_contacts img {
+    display: flex;
+    margin-bottom: 36px;
+    width: 71px;
+    height: 29px;
+}
+
+.section_descr_text_contacts {
+    text-align: center;
+    margin-top: 112px;
+    margin-bottom: 60px;
+}
+
+.card_adress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_adress {
+    color: #999999;
+    margin-bottom: 25px;
+}
+
+.card_adress h3 {
+    text-align: center;
+}
+
+.card_phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contacts_email {
+    color: #F7654A;
+
+}
+
+
+
+.card_email {
+
+    height: 155px;
+    display: flex;
+
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.card_email img {
+    width: 71px;
+    height: 29px;
+
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82px;
+    background-color: #404149;
+    margin-top: 60px;
+}
+
+.footer_div p {
+    color: #FFFFFF;
+    font-family: "open sans";
+
+}
+
+.footer_div {
+    display: flex;
+    justify-content: space-between;
+}
+
