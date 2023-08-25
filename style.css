@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: "oswald";
-
 }
 
 /* header */
@@ -17,51 +17,58 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    text-align: center;
+    /* margin: auto; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    /* text-align: center; */
     padding-top: 192px;
 }
  /* header img{
     position: fixed;
  } */
 
+ 
 
 
 
 .main {
     width: 1110px;
- 
+    margin: 0 auto;
 }
 
 .main p {
     font-size: 14px;
 }
 
+
+
+/* section years card */
+
+
 .years {
-    width: 1110px;
+    /* width: 1110px; */
 
     background-color: white;
 }
 
 .title-header {
     color: white;
+    text-align: center;
 }
 
 .list-header {
     color: white;
-    margin: 15px 0 20px
+    margin: 15px 0 20px 0;
+    text-align: center;
+    
 }
 
 .years_card {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-
-    padding: 50px 130px 57px 130px;
-
+    padding: 50px 0;
 }
 
 .years_card h1 {
@@ -92,6 +99,7 @@ header {
 .arena_card img {
     margin-bottom: 45px;
     height: 380px;
+    width: 100%;
 }
 
 .orange_line {
@@ -203,13 +211,13 @@ font-family: "oswald";
 
 .what_we_doing1 {
     display: flex;
-    width: 1110px;
+    /* width: 1110px; */
     justify-content: space-between;
 }
 
 .what_we_doing2 {
 
-    width: 1110px;
+    /* width: 1110px; */
 
 }
 
@@ -240,7 +248,7 @@ font-family: "oswald";
     display: flex;
 
     justify-content: space-between;
-    width: 1110px;
+    /* width: 1110px; */
 }
 
 .section_descr_contacts img {
@@ -330,5 +338,84 @@ footer {
 .footer_div {
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width:1200px) {
+    .main{
+        width:950px;
+    }
+
+    .arena_card {
+        height: 578px;
+        width: 300px;
+    }
+}
+
+@media (max-width:992px) {
+    .main{
+        width:100%;
+        padding: 15px;
+    }
+
+    header{
+        position: relative;
+        height: 650px;
+    }
+
+    .years_card{
+        
+        padding: 50px 0px;
+    }
+
+    .years{
+        width:700px;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .text_our_projects {
+        
+        margin-top: 120px;
+        margin-bottom: 50px;
+    
+    }
+    .arena_card {
+        height: 300px;
+        width: 200px;
+        
+    }
+    .arena_card img {
+        height: auto;
+    }
+
+    .card_building{
+        width: 230px;
+    }
+}
+
+@media (max-width:768px) {
+    .years{
+        width:500px;
+    }
+    .arena_card {
+        height: auto;
+        width: 300px;
+    }
+
+    .arena_card img{
+        height: 350px;
+    }
+
+    .three_cards{
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:576px) {
+    
 }
 
