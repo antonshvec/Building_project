@@ -224,7 +224,6 @@ font-family: "oswald";
 .text2_h2_section_descr {
     text-align: center;
     margin-top: 150px;
-
 }
 
 .what_we_doing2 {
@@ -386,12 +385,17 @@ footer {
         width: 200px;
         
     }
+    .arena_card {
+        height: 300px;
+        width: 200px;
+        
+    }
     .arena_card img {
         height: auto;
     }
 
     .card_building{
-        width: 230px;
+         width: 230px;
     }
 }
 
@@ -418,4 +422,6 @@ footer {
 @media (max-width:576px) {
     
 }
+
+/* dsfsfsdf fdsfsfd fsdfsdff */
 
