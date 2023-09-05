@@ -29,6 +29,8 @@ header {
  } */
 
 
+
+
 .main {
     width: 1110px;
     margin: 0 auto;
@@ -37,9 +39,6 @@ header {
 .main p {
     font-size: 14px;
 }
-
-/* section years card */
-
 
 .years {
     /* width: 1110px; */
@@ -215,7 +214,6 @@ font-family: "oswald";
 .text2_h2_section_descr {
     text-align: center;
     margin-top: 150px;
-
 }
 
 .what_we_doing2 {
@@ -479,5 +477,4 @@ header{
   
 
   
-
 
